@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="aeb" name="aeb" type="aeb">
+    <rosparam command="load" file="$(find aeb)/params.yaml"/>
+    </node>
+</launch>
