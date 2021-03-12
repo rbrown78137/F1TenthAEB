@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="lab5" name="lab5node" type="lab5node">
+    <rosparam command="load" file="$(find lab5)/params.yaml"/>
+    </node>
+</launch>
